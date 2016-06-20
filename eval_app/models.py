@@ -25,8 +25,13 @@ class Attribute(models.Model):
     creativity = models.PositiveIntegerField(default=0, validators=[MaxValueValidator(10, 'Enter value between 0-10')])
 
     def __str__(self, string=None):
-        string = '%s >>> Teamwork: %d Spirit: %d Discipline: %d Creativity: %d' \
-            % (self.employee, self.teamwork, self.spirit, self.discipline, self.creativity)
+        info = {
+           'employee_name': self.employee, 'teamwork': self.teamwork, 'spirit': self.spirit,
+           'discipline': self.discipline, 'creativity': self.creativity
+        }
+        # a = "Teamwork: %(teamwork)d" % {'teamwork': 10}
+        string = ("%(employee_name)s >>> Teamwork: %(teamwork)d "
+                  "Spirit: %(spirit)d Discipline: %(discipline)d Creativity: %(creativity)d") % info
         return string
 
 """
