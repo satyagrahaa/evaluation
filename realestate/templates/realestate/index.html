@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <form action='{% url 'real_estate_index' %}' method="POST">{% csrf_token %}
+            {{ submission_form }}
+     <input type="submit" value="Submit" />
+    </form>
+    <h1>
+        {{ title }}
+    </h1>
+</body>
+</html>

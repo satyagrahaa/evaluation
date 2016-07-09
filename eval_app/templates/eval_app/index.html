@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <ul>
+        {% for n in employees %}
+            <li><a href="{{ n.name }}/">
+                {{ n.name }}
+            </a></li>
+        {% endfor %}
+        <form method="POST">{% csrf_token %}
+                {{ form }}
+         <input type="submit" value="Send" />
+        </form>
+    </ul>
+
+</body>
+</html>

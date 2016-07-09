@@ -1,0 +1,83 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-07-05 13:05+0430\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\realestate\models.py:15
+msgid "Residencial"
+msgstr "مسکونی"
+
+#: .\realestate\models.py:16
+msgid "Commercial"
+msgstr "تجاری"
+
+#: .\realestate\models.py:17
+msgid "House"
+msgstr "خانه"
+
+#: .\realestate\models.py:18
+msgid "Land"
+msgstr "زمین"
+
+#: .\realestate\models.py:26
+msgid "Verified"
+msgstr "تایید شده"
+
+#: .\realestate\models.py:27 .\realestate\models.py:40
+msgid "Pending"
+msgstr "در انتظار تایید"
+
+#: .\realestate\models.py:28
+msgid "Rejected"
+msgstr "رد شده"
+
+#: .\realestate\models.py:31
+msgid "Title"
+msgstr "عنوان"
+
+#: .\realestate\models.py:32
+msgid "Expiration Date"
+msgstr "تاریخ انقضا"
+
+#: .\realestate\models.py:33
+msgid "Owner"
+msgstr "مالک"
+
+#: .\realestate\models.py:34
+msgid "Price"
+msgstr "قیمت"
+
+#: .\realestate\models.py:35
+msgid "IRR"
+msgstr "ریال "
+
+#: .\realestate\models.py:36
+msgid "Type"
+msgstr "نوع"
+
+#: .\realestate\models.py:37
+msgid "Image"
+msgstr "عکس"
+
+#: .\realestate\models.py:39
+msgid "Verification Status"
+msgstr "وضعیت تأیید"
+
+#: .\realestate\models.py:41
+msgid "Elevator"
+msgstr "آسانسور"
