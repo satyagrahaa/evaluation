@@ -5,12 +5,14 @@ from __future__ import unicode_literals
 
 from django.utils.translation import gettext_lazy as _
 from django.db import models
+from django.utils.six import python_2_unicode_compatible
 
 
 # from moneyfield import MoneyField
 
 
-# Create your models here.
+
+
 @python_2_unicode_compatible
 class Property(models.Model):
     TYPE_RESIDENCIAL = 'R'
