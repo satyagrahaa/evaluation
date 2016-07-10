@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# vim: ai ts=4 sts=4 et sw=4
+
 from __future__ import unicode_literals
 
 from django.core.validators import MaxValueValidator
@@ -7,7 +10,7 @@ from django.utils.translation import ugettext_lazy as _
 
 # Create your models here.
 
-
+@python_2_unicode_compatible
 class Employee(models.Model):
     name = models.CharField(_('Name'), max_length=20)
     job_title = models.CharField(_('Job Title'), max_length=40, blank=True, null=True)
@@ -18,7 +21,7 @@ class Employee(models.Model):
         return self.name
 
 
-# limits att values
+@python_2_unicode_compatible
 class Attribute(models.Model):
     employee = models.ForeignKey(Employee, on_delete=models.PROTECT,
                                  verbose_name=_('Employee'))
