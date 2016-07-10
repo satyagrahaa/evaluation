@@ -2,10 +2,42 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e1d0676c-35dc-4284-ad90-3712f8b0b963" name="Default" comment="Evaluation app and Real Estate app committed">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/coverage_html.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/eval_app___init___py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/eval_app_admin_py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/eval_app_apps_py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/eval_app_migrations_0001_initial_py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/eval_app_migrations_0002_auto_20160619_1725_py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/eval_app_migrations_0002_auto_20160704_1747_py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/eval_app_migrations_0003_auto_20160619_1744_py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/eval_app_migrations_0003_auto_20160709_1213_py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/eval_app_migrations_0004_auto_20160620_1007_py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/eval_app_migrations_0005_auto_20160704_1426_py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/eval_app_migrations_0006_remove_employee_img_py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/eval_app_migrations___init___py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/eval_app_models_py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/eval_app_tests_py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/evaluation___init___py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/evaluation_settings_py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/jquery.debounce.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/jquery.hotkeys.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/jquery.isonscreen.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/jquery.tablesorter.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/keybd_closed.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/keybd_open.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/manage_py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/realestate___init___py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/realestate_admin_py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/realestate_apps_py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/realestate_migrations_0001_initial_py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/realestate_migrations___init___py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/realestate_models_py.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/status.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlcov/style.css" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eval_app/models.py" afterPath="$PROJECT_DIR$/eval_app/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/realestate/models.py" afterPath="$PROJECT_DIR$/realestate/models.py" />
     </list>
     <ignored path="evaluation.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -299,34 +331,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="evaluation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="evaluation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="evaluation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="realestate" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="evaluation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="evaluation" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="eval_app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -700,7 +704,7 @@
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2193646" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22239032" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1050,9 +1054,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="e#52#87#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
